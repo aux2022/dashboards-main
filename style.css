@@ -1,0 +1,120 @@
+/*body{
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+ 
+}*/
+body{
+    background-color: #555555;
+}  
+table {
+        width: 100%;
+        font-size: 19px;
+        font-weight: bold;
+    
+    }
+    .encabezados {
+        font-weight: bold;
+        font-size: 15px;
+        background-color: #0CB2F0;
+    }
+    
+    .time {
+        color: #eee;
+    
+    }
+    
+
+  
+    table caption {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 1em 0;
+    }
+    
+    th,
+    td {
+        border: 1px solid #999;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .tablathtr {
+        width: 100%;
+    
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    table thead tr {
+        background-color: #008c8c;
+        color: #fff;
+    }
+    
+    table tbody tr {
+        background-color: #eee;
+    }
+    
+    
+    
+    table tbody tr td:first-child {
+        background-color: #0CB2F0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    
+    table tfoot tr td {
+        text-align: right;
+        padding-right: 20px;
+    }
+    
+    .img {
+        color: rgb(16, 0, 161);
+        margin-top: 0% !important;
+        width: 250px;
+        height: 80px;
+    
+    }
+    
+
+    
+    .widgets {
+        font-weight: bold;
+        font-size: 30px;
+        background-color: #0cb3f000;
+        border: 0;
+    }
+    
+    .titulo {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        text-shadow: 1px 1px 5px black;
+        font-weight: bold;
+        color: #eee;
+        color: white;
+    
+    }
+    
+    .tiempo {
+    font-size: 20px;
+        color: #eee;
+    }
+    
+    #contenedor {
+        display: table;
+    }
+    
+    #contenidos {
+        display: table-row;
+    }
+    
+    #columna1,
+    #columna2,
+    #columna3 {
+        display: table-cell;
+    }
+
+   
