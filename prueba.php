@@ -27,7 +27,7 @@ $stmt = sqlsrv_query($conn, $tsql);
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta property="og:type" content="website" />
      <META http-equiv=refresh content=30>
-      <title>DASHBOARDS</title>
+      <title>DASHBOARD</title>
       <meta name="description" content="all">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="./style2.css">
@@ -349,6 +349,13 @@ $prod=($row[4]);
         else if( $porcentaje>=110){
            
             echo '<td width="9%" align="center" style="color:red";>' .
+                utf8_encode($porcentaje) .
+                '</td>';
+                
+        }
+        else if( $porcentaje<=110&&$porcentaje>=90){
+           
+            echo '<td width="9%" align="center" style="color:green";>' .
                 utf8_encode($porcentaje) .
                 '</td>';
                 
